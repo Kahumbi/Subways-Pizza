@@ -8,7 +8,7 @@ function pizza (size, crust, toppings, total, orderNo) {
     this.orderNo = orderNo;
   }  
 
-  $('.btn.add-pizza').click(function() {
+  $('.zoom').click(function() {
     var sizeOfPizza = $(".size option:selected").val();
     var toppingsOfPizza = $(".toppings option:selected").val();
     var crustOfPizza = $(".crust option:selected").val();
