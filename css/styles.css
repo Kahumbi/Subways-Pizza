@@ -1,0 +1,41 @@
+body{
+    background-image: url("../Images/pizza.jpg");
+    opacity: calc(2000px);
+}
+.container{
+    background-color: rgb(243, 118, 118);
+    
+}
+h1{
+    text-align: center;
+    color: aqua;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    text-align: center;
+    color: aqua;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    color: aqua;
+    font-size: xx-small;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+.pick{
+    border-radius: 100ch;
+    padding-bottom: 0ch;
+}
+
+
+
+
+
+
+
+
