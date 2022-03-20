@@ -1,4 +1,5 @@
 //Buisness Logic
+
 function myOrder (size, crust, toppings) {
     this.size= size;
     this.crust = crust;
@@ -11,11 +12,15 @@ function myOrder (size, crust, toppings) {
 
 
 
- var size = (small, medium, larger)
- var crust = (stuffed, glutenFree, crispy)
- var toppings= (olives, cheese, pepperoni)
+  var sizeOfPizza = $(".size option:selected").val();
+  var toppingsOfPizza = $(".toppings option:selected").val();
+  var crustOfPizza = $(".crust option:selected").val();
+  var total = parseInt(sizeOfPizza) + parseInt(toppingsOfPizza) + parseInt(crustOfPizza);
+  var order = 1;
+  var grandTotal = 0;
+
+  
 
  //user interface
  $(container).ready()  
 
- 
