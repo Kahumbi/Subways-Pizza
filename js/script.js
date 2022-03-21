@@ -14,7 +14,7 @@ $('.order').click(function() {
   var crustOfPizza = $(".crust option:selected").val();
   var total = parseInt(sizeOfPizza) + parseInt(toppingsOfPizza) + parseInt(crustOfPizza);
   var order = 1;
-  
+  var amountt = 0;
 
  
 
@@ -31,7 +31,7 @@ $('.order').click(function() {
     var crustOfPizza = $(".crust option:selected").val();
     var total = parseInt(sizeOfPizza) + parseInt(toppingsOfPizza) + parseInt(crustOfPizza);
     order = order + 1;
-  //   amountt = amountt + total;
+    amountt = amountt + total;
 
 
     var newPizza = new pizza(sizeOfPizza, toppingsOfPizza, crustOfPizza, total, order);
@@ -41,10 +41,15 @@ $('.order').click(function() {
     $("#pizza").append(newRow);
   });
 
-  
+  $(".checkout-btn").click(function() {
+    amountt = amountt + total;
+    $(".amountt h3 span").html(amountt)
+   var answer= prompt("Your orders will be dispatched to you at ksh @150 enter yes or no")
+    if (answer =="yes") {var location=prompt("enter your location")
+    alert("your order will arrive shortly at " + location + " your total amount is " + (amountt + 150))}
+   });
+
 });
-
-
 });
  
 
