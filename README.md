@@ -9,10 +9,10 @@ Setup Instructions and Installation
 Open terminal command line then navigate to the root folder of the application. cd subways-pizza
 Open index.html on your Browser.
 Behaviour Driven Development
-Displays Form For Entering Date and Gender
-INPUT: "User's Birthdate Entered"
-INPUT: "User's Gender Entered"
-OUTPUT: "Displays User's Akan Name According to Submitted Date and Gender"
+Displays Form For Entering price and delivery
+INPUT: "location"
+INPUT: "Amount"
+OUTPUT: "Displays total amount delivery and location According to Submitted amount and location"
 Displays an Error Message if Date Input Left Blank
 INPUT: ""
 OUTPUT: "Displays Error Message"
