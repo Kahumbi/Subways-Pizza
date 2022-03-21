@@ -1,4 +1,5 @@
 //Buisness Logic
+$(document).ready(function() {
 
  function pizza (size, crust, toppings, total, orderNo) {
     this.size= size;
@@ -6,7 +7,7 @@
     this.toppings = toppings;
     this.total = total;
     this.orderNo = orderNo;
-}  
+  }  
  
 
 
@@ -19,7 +20,7 @@
     var total = parseInt(sizeOfPizza) + parseInt(toppingsOfPizza) + parseInt(crustOfPizza);
     order = order + 1;
     grandTotal = grandTotal + total;
- });  
+  });  
     var newPizza = new pizza(sizeOfPizza, toppingsOfPizza, crustOfPizza, total, order);
 
   pizza.prototype.fullOrder = function() {
@@ -32,7 +33,7 @@
   
 
 
-
+ });
 //user interface
- $(container).ready()  
+ 
 
