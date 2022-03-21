@@ -1,4 +1,7 @@
 # Subways-Pizza
+Subways-pizza is a website that helps its users get readily made, well prepared and tasty pizzas to
+their destinations of choice at the tap of a button.This website is convinient to both the user and the
+clients because of its ease of use and functionality.  
 Technologies Used
 HTML & CSS (Bootstrap)
 JavaScript
