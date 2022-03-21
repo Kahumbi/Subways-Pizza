@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,114 +10,117 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Subways-Pizza</title>
 </head>
+
 <body>
     <H1>SUBWAYS PIZZA</H1>
     <h2>Subways Pizza palace place your orders here to get your pizza</h2>
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2>MENU</h2>    
-                    <img class="pick" src="Images/halapenyos.jpeg" alt="">   
-                 <h3>Size</h3>    
-                 <br>               
-                 <select class="size">
+                <h2>MENU</h2>
+                <img class="pick" src="Images/halapenyos.jpeg" alt="">
+                <h3>Size</h3>
+                <br>
+                <select class="size">
                     <option label="Small" value="600">Small</option>
                     <option label="Medium" value="800">Medium</option>
                     <option label="Large" value="1000">Large</option>
-                  </select>
-                 <br>
-                    <img class="pick" src="Images/crust.jpeg" alt="">
+                </select>
+                <br>
+                <img class="pick" src="Images/crust.jpeg" alt="">
                 <h3>Crust</h3>
-                 <br>
+                <br>
 
-                 <select class="crust">
+                <select class="crust">
                     <option label="Stuffed" value="650">Stuffed</option>
                     <option label="Gluten-Free" value="450">Gluten-Free</option>
                     <option label="Crispy" value="300">Crispy</option>
-                  </select>
-                
-                 <br>
-                    <img class="pick" src="Images/pizza toppings.jpeg" alt="">
+                </select>
+
+                <br>
+                <img class="pick" src="Images/pizza toppings.jpeg" alt="">
                 <h3>Toppins</h3>
-                 <br>
-                 <select class="toppings">
+                <br>
+                <select class="toppings">
                     <option label="Olives" value="100">Olives</option>
                     <option label="Cheese" value="150">Cheese</option>
                     <option label="Pepperoni" value="80">Pepperoni</option>
-                  </select>
-      
-           
-            </div>         
-        
-    
+                </select>
 
-            
-                <h2>Place Your Order Here</h2>
 
-                <button class="order"type="button">Order</button>
-           
+            </div>
+
+
+
+
+            <h2>Place Your Order Here</h2>
+
+            <button class="order" type="button">Order</button>
+
 
             <div class="tend">YOUR ORDERS</div>
             <table class="table">
-             <th>
-               <tr>
-                 <th scope="col">order number</th>
-                 <th scope="col">pizza size</th>
-                 <th scope="col">crust</th>
-                 <th scope="col">toppings</th>
-                 <th scope="col">total</th>
-               </tr>
-              </th>
-              <tbody id="pizza">
-               <tr>
-                 <th scope="row">1</th>
-                 <td id="size"></td>
-                 <td id="toppings"></td>
-                 <td id="crust"></td>
-                 <td id="total"></td>
-               </tr>
-             </tbody>
-           </table>
+                <th>
+                    <tr>
+                        <th scope="col">order number</th>
+                        <th scope="col">pizza size</th>
+                        <th scope="col">crust</th>
+                        <th scope="col">toppings</th>
+                        <th scope="col">total</th>
+                    </tr>
+                </th>
+                <tbody id="pizza">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td id="size"></td>
+                        <td id="toppings"></td>
+                        <td id="crust"></td>
+                        <td id="total"></td>
+                    </tr>
+                </tbody>
+            </table>
 
-        </table>
-        <div class="drive">
-          <div class="walk">
-            <button class="add-btn" type="submit">Add order</button>
-            <div class="delivery" id="deliver">
-              <div class="amountt" id="amount">
-                <h3>Total amount: <span></span></h3>
-               </div>
-      
-             
-              
-              
-      
-              <div class="location" id="location">
-                <input type="text" placeholder="Input location for delivery" required />
-                <button class="enter-btn" type="submit">Enter</button>
-              </div>
+            </table>
+            <div class="drive">
+                <div class="walk">
+                    <button class="add-btn" type="submit">Add order</button>
+                    <div class="delivery" id="deliver">
+                        <div class="amountt" id="amount">
+                            <h3>Total amount: <span></span></h3>
+                        </div>
+
+
+
+
+
+                        <div class="location" id="location">
+                            <input type="text" placeholder="Input location for delivery" required />
+                            <button class="enter-btn" type="submit">Enter</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tooth">
+                    <button class="checkout-btn" type="submit">Checkout</button>
+                </div>
             </div>
-            
-          </div>
-          <div class="tooth">
-            <button class="checkout-btn" type="submit">Checkout</button>
-          </div>
-        </div>
 
 
-      
+
 
 
         </div>
         <footer>
             <h3> Subways Pizza</h3>
-               <p>Thika Road Drive,Garden Plaza
-                   Nairobi,00100-Thika road
-               </p>
-       </footer>
+            <p>Thika Road Drive,Garden Plaza
+                Nairobi,00100-Thika road
+            </p>
+        </footer>
     </div>
 
-     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
-   <script src="./js/script.js"></script>  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
